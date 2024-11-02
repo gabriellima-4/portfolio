@@ -131,6 +131,10 @@ body {
     justify-content: space-evenly;
 }
 
+.DA-Card{
+    height: 100px;
+}
+
 .BD-Card:hover,
 .MS-Card:hover,
 .DA-Card:hover,
