@@ -2,6 +2,8 @@
 
 * {
     font-family: Funnel Sans;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,6 +14,7 @@ body {
 
 
 #foto-texto h3 {
+    margin-top: 15px;
     font-size: 14px;
     text-align: center;
     color: #FEA82F;
@@ -28,6 +31,10 @@ body {
 
 #foto-texto p {
     margin-bottom: 90px;
+    justify-content: center;
+    text-align: center;
+    line-height: 32px;
+    font-size: 18px;
 }
 
 .foto-nome img {
@@ -50,16 +57,9 @@ body {
     text-decoration: underline;
     text-decoration-color: #FEA82F;
     text-decoration-thickness: 1.2px;
+    padding: 10px;
+    margin-bottom: 1px;
 }
-
-#foto-texto p {
-    justify-content: center;
-    text-align: center;
-    line-height: 32px;
-    font-size: 18px;
-}
-
-
 
 
 .fileira-linguagens {
@@ -68,12 +68,13 @@ body {
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 
 #linguagensProgramacao h2 {
     text-align: center;
     padding: 10px;
+    margin-bottom: 15px;
     text-decoration: underline;
     text-decoration-color: #FEA82F;
     text-decoration-thickness: 1.5px;
@@ -110,6 +111,7 @@ body {
     text-decoration-color: #FEA82F;
     text-decoration-thickness: 1.5px;
     padding: 10px;
+    margin-bottom: 15px;
 }
 
 .fileira-projetos {
@@ -166,6 +168,7 @@ body {
     text-decoration-color: #FEA82F;
     text-decoration-thickness: 1.5px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -179,7 +182,8 @@ body {
 }
 
 .card-certif{
-    width: 38%;
+    height: 8rem;
+    width: 40rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -188,16 +192,15 @@ body {
 }
 
 .nome-e-descricao{
+    margin-left: 10px;
     padding: 10px;
 }
 
 .nome-e-descricao h3 {
-    margin-top: 0;
+    margin-bottom: 10px;
 }
 
-.nome-e-descricao p{
-    margin-bottom: 0;
-}
+
 
 .instituicao{
     width: 100px;
@@ -211,7 +214,7 @@ body {
     text-decoration: underline;
     text-decoration-color: #FEA82F;
     text-decoration-thickness: 1.5px;
-    padding: 10px;
+    margin-bottom: 15px;
 }
 
 #Contato a {
@@ -235,8 +238,10 @@ body {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
+    
+    height: 10rem;
     border-radius: 20px;
     width: 8.6rem;
     padding: 20px;
@@ -263,9 +268,9 @@ body {
     transition-timing-function: ease-in-out;
 }
 
-.Playstation-Card img {
+/* .Playstation-Card img {
     margin-top: 20px;
-}
+} */
 
 .Playstation-Card span {
     line-height: 30px;
