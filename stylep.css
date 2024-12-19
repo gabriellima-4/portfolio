@@ -187,7 +187,7 @@ body {
 
 .card-certif{
     height: 8rem;
-    width: 40rem;
+    width: 37rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -202,6 +202,9 @@ body {
 
 .nome-e-descricao h3 {
     margin-bottom: 10px;
+}
+.nome-e-descricao p{
+    font-size: 15px;
 }
 
 
