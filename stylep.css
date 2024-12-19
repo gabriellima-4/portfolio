@@ -11,12 +11,17 @@ body {
     color: #DFE0E2;
 }
 
-
+#foto-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #foto-texto h3 {
     margin-top: 15px;
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
     color: #FEA82F;
 }
 
@@ -48,7 +53,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
 
@@ -280,6 +284,14 @@ body {
 
 
 footer {
-    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding: 15px;
+}
+
+footer p{
+    width: 100%;
     text-align: end;
 }
