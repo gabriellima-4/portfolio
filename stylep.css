@@ -130,7 +130,8 @@ body {
 .BD-Card,
 .MS-Card,
 .DA-Card,
-.SP-Card {
+.SP-Card,
+.WL-Card {
     border-radius: 20px;
     width: 40rem;
     padding: 20px;
@@ -148,7 +149,8 @@ body {
 .BD-Card:hover,
 .MS-Card:hover,
 .DA-Card:hover,
-.SP-Card:hover {
+.SP-Card:hover,
+.WL-Card:hover {
     box-shadow: 0 5px 10px 6px rgba(254, 168, 47, 0.9);
     transition: 0.5s;
     transition-timing-function: ease-in-out;
@@ -161,7 +163,8 @@ body {
 .BD-Card p,
 .MS-Card p,
 .DA-Card p,
-.SP-Card p {
+.SP-Card p,
+.WL-Card p {
     color: #DFE0E2;
     font-size: 22px;
 }
